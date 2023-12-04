@@ -1,0 +1,417 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "sajat";
+    src: url('GLORIOUS.otf');
+}
+
+html {
+    padding: 0px;
+    margin: 0px
+}
+
+body {
+    background-color: #edede9;
+    text-align: justify;
+    padding: 0px;
+    margin: 0px;
+    color: #4e4949;
+    font-family: 'Crimson Pro', 'Times New Roman', serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container>* {
+    margin: 1%;
+    height: fit-content;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    background-color: #8a817c;
+    height: 18vh;
+
+}
+
+hr {
+    width: 80%;
+    background-color: #edede9;
+
+}
+
+h1#focim {
+    margin: 0;
+    color: #edede9;
+    font-family: 'sajat';
+    font-size: 200%;
+    letter-spacing: 6px;
+    word-spacing: 15px;
+
+}
+
+div#fokep {
+    background-image: url(../Kepek/mobilfokep.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+nav {
+    display: block;
+    flex: 1 1 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #8a817c;
+    padding: 1% 2%;
+    width: 60vw;
+    border: solid #8a817c;
+    border-radius: 10px;
+}
+
+nav ul li a#current {
+    color: #edede9;
+    background-color: #8a817c;
+}
+
+nav ul li a:hover {
+    background-color: #8a817c;
+    color: #edede9;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+hr#elvalaszto {
+    width: 100%;
+    background-image: linear-gradient(#8a817c, #edede9);
+    height: 30px;
+    border: 0;
+}
+
+hr#elvalaszto1 {
+    width: 100%;
+    background-image: linear-gradient(#ededed, #8a817c);
+    height: 30px;
+    border: 0;
+}
+
+div article#fooldal {
+    flex: 1 1 100%;
+
+}
+
+div article#fooldal h2 {
+    color: #4e4949
+}
+
+figure img {
+    width: 80%;
+    height: auto;
+    text-align: center;
+
+}
+
+div#foszolg {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #8a817c;
+}
+
+div#foszolg div {
+    height: 35vh;
+    width: 65vw;
+    margin: 5px;
+    text-align: center;
+    background-size: cover;
+}
+
+div#foszolg div#lt {
+    background-image: url("../Kepek/látványterv képek/34.jpg");
+}
+
+div#foszolg div#lb {
+    background-image: url("../Kepek/lakberendezes.jpg")
+}
+
+div#foszolg div#hs {
+    background-image: url("../Kepek/homestaging.jpg");
+    
+}
+
+div#foszolg div#at {
+    background-image: url("../Kepek/alaprajz.jpg")
+}
+
+
+div#foszolg a {
+    text-decoration: none;
+    color: #4e4949;
+}
+
+div#foszolg a:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-image: linear-gradient(#edede9, #8a817c);
+    color: #4e4949;
+    font-size: 1.2em;
+    padding: 6vh 2vw;
+    margin-top: 3vh;
+}
+
+footer hr {
+    height: 2px;
+    width: 70%;
+    background-color: #8a817c;
+    border: 0;
+}
+
+/*SZOLGÁLTATÁSOK*/
+
+div.szolg {
+    width: 85%;
+    border: #8a817c solid;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+div.szolg p {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+div.szolg img.jobb {
+    width: 250px;
+    margin: 10px
+}
+
+div.szolg img.bal {
+    width: 250px;
+    margin: 10px;
+}
+
+/*KAPCSOLAT*/
+div#urlapok{
+    flex-direction: column;
+    align-items:center;
+    font-size: 1.2em;
+}
+section.ur{
+    border:#4e4949 solid 3px;
+    border-radius: 5px;
+    padding: 3px;
+    width:90%;
+}
+
+hr.kapcs {
+    width: 30%;
+    height: 3px;
+    background-color: #4e4949;
+}
+
+
+form#urlap p, #arajanlat p {
+    margin: 2% 1%;
+}
+div#urlapok h3{
+    padding-top: 3vh;
+    text-align: center;
+}
+
+input.bemenet {
+    width: 98%
+}
+ h2#k{text-align: center;}
+
+
+.gomb {
+    width: 20%;
+    color: #4e4949;
+    font-size:0.8em !important;
+    border: #4e4949 solid 1px;
+    border-radius: 3px;
+    background-color:#ffffff;
+    margin: 1%;
+
+}
+
+.gomb:hover {
+    background-color: #8a817c;
+    color: #edede9;
+}
+
+
+
+
+/*TABLEEET*/
+
+@media all and (min-width: 600px) {
+    nav ul {
+        flex-direction: row !important;
+    }
+
+    div#fokep {
+        background-size: contain;
+        height:35vh;
+        background-image: url("../Kepek/tabletfokep.jpg");
+    }
+
+
+    div article#fooldal {
+        font-size: 110%;
+    }
+
+    header h1#focim {
+        font-size: 300%;
+    }
+
+    nav ul {
+        justify-content: space-around;
+    }
+
+    nav ul li a {
+        width: 22vw;
+        font-size: 80%;
+    }
+
+    div article#fooldal figure img {
+        float: right;
+        width: 60%;
+        padding: 20px
+    }
+
+    header {
+        flex-direction: column !important;
+    }
+
+    div article#fooldal {
+        margin: 3%
+    }
+
+    div#foszolg {
+        flex-direction: row;
+    }
+
+    div#foszolg div {
+        height: 200px;
+        width: 20vw;
+        margin: 3px 3px;
+    }
+
+    div#foszolg div h2 {
+        font-size: 110%;
+
+
+        /*SZOLGÁLTATÁS*/
+    }
+
+    div.szolg img.jobb {
+        float: right;
+        height: 30vh;
+        width: auto;
+    }
+
+    div.szolg img.bal {
+        float: left;
+        height: 30vh;
+        width: auto;
+
+    }
+
+    div.szolg {
+        width: 70%;
+    }
+
+    /*KAPCSOLAT*/
+
+    form#urlap p {
+        margin: 3% 1%;
+    }
+    div#urlapok{
+        flex-direction: row;
+        justify-content: space-around;
+    align-items: flex-start;}
+
+    section.ur{
+        width: 45%;
+    }
+
+    .gomb {
+        font-size: 0.95em;
+    }
+
+}
+
+/*SZÁMÍTÓGÉÉP*/
+@media all and (min-width: 768px) {
+    div article#fooldal figure img {
+        padding: 15px;
+        width: 40%;
+    }
+
+    nav ul li a {
+        font-size: 100%;
+    }
+    div#fokep {
+        background-size: cover;
+        height:40vh;
+        background-image: url("../Kepek/fokep.jpg");
+    }
+
+    div article#fooldal {
+        font-size: 120%;
+    }
+
+    div#foszolg div {
+        height: 40vh;
+        width: 20vw;
+        margin: 3px;
+
+    }
+
+    div#foszolg div h2 {
+        font-size: 150%;
+
+    }
+
+    /*KAPCSOLAT*/
+    div#kapcsolat form#urlap p {
+        margin: 2% 1%;
+    }
+
+
+
+}
